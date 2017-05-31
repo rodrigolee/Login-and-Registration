@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>success</title>
+  </head>
+  <body>
+    {% for individual in Registered %}
+    <h1>Success! Welcome, {{individual.first_name}}</h1>
+    <h2>You have successfully registered or logged in!</h2>
+    {% endfor %}
+  </body>
+</html>
